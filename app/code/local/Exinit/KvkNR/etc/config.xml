@@ -37,7 +37,7 @@
         <layout>
             <updates>
                 <storeurl>
-                    <file>phyts/storeurl.xml</file>
+                    <file>exinit/kvknr.xml</file>
                 </storeurl>
             </updates>
         </layout>
