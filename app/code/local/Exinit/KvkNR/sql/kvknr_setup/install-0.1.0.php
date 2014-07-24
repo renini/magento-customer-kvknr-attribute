@@ -15,7 +15,7 @@ $installer->addAttribute("customer", "kvknr",  array(
     "default" => "",
     "frontend" => "",
     "unique"     => false,
-    "note"       => "Voer je KvK nummer in, of 'inopleiding' als je nog in opleiding ben"
+    "note"       => "KvK nummer of 'inopleiding'"
 
 	));
 
