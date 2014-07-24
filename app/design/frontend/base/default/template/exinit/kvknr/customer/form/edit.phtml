@@ -46,7 +46,11 @@
             <li>
                 <label for="kvknr" class="required"><em>*</em>KvK nummer</label>
                 <div class="input-box">
+<<<<<<< HEAD
                     <input type="text" autocapitalize="off" autocorrect="off" spellcheck="false" name="kvknr" id="kvknr" value="<?php echo $this->escapeHtml($this->getFormData()->getKvkNR()) ?>" title="KvK nummer" class="input-text required-entry" />
+=======
+                    <input type="text" autocapitalize="off" autocorrect="off" spellcheck="false" name="kvknr" id="kvknr" value="<?php echo $this->escapeHtml($this->getCustomer()->getkvknr()) ?>" title="KvK nummer" class="input-text required-entry" />
+>>>>>>> my-temporary-work
                 </div>
             </li>
         <?php $_dob = $this->getLayout()->createBlock('customer/widget_dob') ?>
