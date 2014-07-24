@@ -7,12 +7,12 @@
     </modules>
     <global>
         <helpers>
-            <storeurl>
+            <kvknr>
                 <class>Exinit_KvkNR_Helper</class>
-            </storeurl>
+            </kvknr>
         </helpers>
         <resources>
-            <storeurl_setup>
+            <kvknr_setup>
                 <setup>
                     <module>Exinit_KvkNR</module>
                     <class>Mage_Customer_Model_Entity_Setup</class>
@@ -20,25 +20,25 @@
                 <connection>
                     <use>core_setup</use>
                 </connection>
-            </storeurl_setup>
-            <storeurl_write>
+            </kvknr_setup>
+            <kvknr_write>
                 <connection>
                     <use>core_write</use>
                 </connection>
-            </storeurl_write>
-            <storeurl_read>
+            </kvknr_write>
+            <kvknr_read>
                 <connection>
                     <use>core_read</use>
                 </connection>
-            </storeurl_read>
+            </kvknr_read>
         </resources>
     </global>
     <frontend>
         <layout>
             <updates>
-                <storeurl>
+                <kvknr>
                     <file>exinit/kvknr.xml</file>
-                </storeurl>
+                </kvknr>
             </updates>
         </layout>
     </frontend>
